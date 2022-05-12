@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Coupons,com.example.Coupons.Model,Coupon,38,18,0,0,17,7,11,1,11,1
+Coupons,com.example.Coupons,CouponsApplication,12,0,0,0,4,0,3,0,3,0
+Coupons,com.example.Coupons.Service,CouponService,5,27,0,0,1,7,1,5,1,5
+Coupons,com.example.Coupons.Controller,CouponController,35,0,0,0,10,0,6,0,6,0

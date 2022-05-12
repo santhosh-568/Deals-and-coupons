@@ -1,0 +1,23 @@
+server:
+  port: 2002
+eureka:
+  instance:
+    hostname: localhost
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: coupon-service
+          uri: lb://coupon-service
+          predicates:
+            - Path=/coupons/**
+        - id: admin-service
+          uri: lb://admin-service
+          predicates:
+            - Path=/admin/**
+        - id: customer-service
+          uri: lb://customer-service
+          predicates:
+            - Path=/user/**

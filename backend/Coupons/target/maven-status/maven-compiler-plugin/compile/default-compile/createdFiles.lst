@@ -1,0 +1,5 @@
+com\example\Coupons\CouponsApplication.class
+com\example\Coupons\Model\Coupon.class
+com\example\Coupons\Controller\CouponController.class
+com\example\Coupons\Repository\CouponRepository.class
+com\example\Coupons\Service\CouponService.class
